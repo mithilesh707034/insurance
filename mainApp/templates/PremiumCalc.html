@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+	<title> NI General Insurance Services</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+	
+</head>
+<body>
+	<style>
+		
+
+		// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+
+
+
+body{
+
+font-family: 'Source Serif Pro', serif;
+background-color: #50BCEB;
+color: white;
+margin: 0;
+
+
+	}
+
+	h2{
+
+		background-color: #456D17;
+		text-align: center;
+		padding: 7px;
+		color: White;
+
+	}
+
+	.button{
+
+
+		background-color: red;
+		color: white;
+		text-align: center;
+	}
+
+	<a href="#" class="myButton">turquoise</a>
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+	</style>>
+	<h1 align="center"> School Bus Premium Calculator</h1>
+	<h4 align="center"> www.renewpolicy.co.in</h4>
+	<center><img src="assets\img\bus.png" align="center"></center>
+	
+	
+	<!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+
+<form><b><i>
+	<div id="Client-Information">
+		<h2>Kindly Provide all the details to Calculate the Premium</h2>
+		<i class='fas fa-bus-alt' style='font-size:28px;color:Yellow' position: center;></i>
+
+		<table width="100%" border="10" bgcolor="Black" bordercolor="#e0be16">
+
+			<tr>
+
+                <td> Client Name</td>
+                <td>
+                	
+                	<input type="text" size="35" placeholder="Enter the Name of Vehicle Owner">
+                </td>
+
+                <td> Client Mobile Number</td>
+                <td>
+                	<input type="text" size="35" placeholder="Enter 10 Digit Mobile Number">
+                	</td>
+
+			</tr>
+			<tr>
+				<td> Client E-Mail ID</td>
+				<td>
+					<input type="E-mail" size="35" placeholder="Enter E-mail ID">
+
+				</td>
+				<td>Vehicle Owner DOB</td>
+				<td>
+					<input type="date" size="35">
+
+				</td>
+				<tr>
+				<td colspan="2">Select Gender</td>
+				<td>
+					<input type="radio" name="Gender" value="Male">Male
+
+				</td>
+				<td>
+					<input type="radio" name="Gender" value="Female"> Female
+
+				</td>
+				</tr>
+
+			</tr>
+			
+
+
+		</table>
+
+		<!---Vehicle Information-->
+ <div id="Vehicle Information">
+ 	<h2>Vehicle Information</h2>
+ 	<table width="100%" border="10" bgcolor="Black" bordercolor="#e0be16">
+
+ 		<tr style="width: 100px" height="50px">
+ 			
+               <td> Vehicle Make</td>
+        <td>
+	     <input type="text" size="35" placeholder="Company Like; TATA, Maruti etc">
+
+         </td>
+         <td>Vehicle Model</td>
+         <td>
+         	<input type="text" size="35" placeholder="Vehicle Model like Nexon, Dzire etc">
+
+         </td>
+
+
+ 		</tr>
+ 		<tr>
+ 			<td>Registraion Number</td>
+ 			<td>
+ 				<input type="text" size="35" placeholder="KA-18-CA-6754">
+
+ 			</td>
+ 			<td>No of Passengers</td>
+ 			<td>
+ 				<input type="Number" size="25" placeholder="Number of Passenger Mentioned on RC">
+
+ 			</td>
+
+
+ 		</tr>
+ 		<tr>
+ 			<td>IDV Of the Vehicle</td>
+ 			<td>
+ 				<input type="Number" size="35" placeholder="Current Value of Vehicle on Policy">
+
+ 			</td>
+ 			<td>RTO Zone</td>
+ 			<td>
+ 				<input type="text" size="25" placeholder="Like A, B or C as per location">
+
+ 			</td>
+ 			<td>Registration Date</td>
+ 			<td>
+ 				<input type="date" size="10">
+
+ 			</td>
+
+
+ 		</tr>
+
+
+
+ 	</table>
+
+ 	<!--Previous Year Policy Information-->
+
+ 	<div id="Previous Year Policy Information">
+
+ 		<h2>Previous Year Policy Information</h2>
+ 		<table width="100%" border="10" bgcolor="Black" bordercolor="#e0be16">
+ 			<tr>
+ 				<td>Insurer Name</td>
+ 				<td>
+ 					<input type="text" size="35" placeholder="Insurance Company Name Like; TATA, IFFCO-TOKIO etc">
+
+ 				</td>
+ 				<td>Policy Number</td>
+ 				<td>
+ 					
+ 					<input type="net" size="35" placeholder="Mentioned in Policy Copy">
+ 				</td>
+ 				<td>Policy Expiry Date</td>
+ 				<td>
+ 					<input type="Date" size="35">
+
+
+ 				</td>
+ 				<tr>
+ 				<td colspan="2">Last Year Claim Take</td>
+ 				<td>
+ 					<input type="radio" name="radio" value="Yes">Yes
+
+ 				</td>
+ 				<td>
+ 					<input type="radio" name="radio" value="No">No
+
+ 				</td>
+
+ 				<td>Last Year NCB%</td>
+ 				<td>
+ 					<input type="list" list="Number" placeholder="NCB with Percentage">
+ 					
+
+ 				</td>
+ 				</tr>
+
+ 			</tr>
+ 			
+ 		</table>
+
+ 		<!--Enter Below all the Required Information-->
+
+ 		<table>
+
+ 			<div id="Premium Details">
+
+ 				<h2>Premium Details</h2>
+
+ 				<table width="100%" border="10" bgcolor="Black" bordercolor="#e0be16">
+
+ 				<tr>
+ 					<td> Vehicle Base rate</td>
+ 					<td>
+ 						1.672%
+ 					</td>
+ 					<td>Own Damage Premium</td>
+ 					<td>
+ 						<input type="text" size="35">
+ 					</td>
+ 							
+ 				<td>TP Premium</td>
+ 					<td>
+ 						13,874
+
+					</td>
+ 					
+ 				</tr>
+
+ 				</table>
+ 				
+ 				<div id="Total Premium">
+		<h2>Total Premium</h2>
+		<i class='fas fa-bus-alt' style='font-size:28px;color:Yellow' position: center;></i>
+
+		<table width="100%" border="10" bgcolor="Black" bordercolor="#e0be16">
+			<tr>
+				
+                <td> Premium without GST</td>
+                <td>
+                	
+                	<input type="text" size="35">
+                </td>
+
+                <td> Premium with GST</td>
+                <td>
+                	<input type="text" size="35" placeholder="This is Final Premium">
+                	</td>
+
+			</tr>
+			<tr>
+				<td> Cash Back</td>
+				<td>
+					<input type="Text" size="35" placeholder="Please put the Value in %">
+
+				</td>
+				<td>Final Premium After Cash Back</td>
+				<td>
+					<input type="net" size="35">
+
+				</td>
+				
+				</tr>
+
+			</tr>
+			
+
+
+		</table>
+
+		<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Roboto:400"/>
+
+</div>
+			
+		</div>
+
+ 			</div>
+ 			
+
+	</table>
+ 		
+ 	</div>
+ 	
+ </div>
+
+</b></i>
+</form>
+<div class="myButton">
+  <center><p><a href="#" color="white">Calculate Premium</a></p></center>
+
+	</div>
+	<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+
+  
+
+     
+
+  
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://renewpolicy.co.in/"> NI General Insurance Services</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>

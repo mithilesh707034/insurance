@@ -1,0 +1,306 @@
+<!--Calculator for Premium-->
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!-- Favicons -->
+  <link href="C:\Users\Rajnish Mishra\Pictures\logo123.png" rel="icon">
+    
+    <title> RenewPolicy-Premium Calculator</title>
+    
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+   <center> <img src="C:\Users\Rajnish Mishra\Documents\My Web\Bootslander\Bootslander\assets\img\bus.png" alt="" width="400" height="100" style="position: sticky;"></center>	
+</head>
+
+<body><br>
+    <b><h1 align="center"> Staff & School Bus Premium Calculator</h1></b>
+    <h4 align="center"> www.renewpolicy.co.in</h4>
+    
+    
+	
+<form>
+    
+    <div id="Client Information">
+<h2>Kindly Provide all the details to Calculate Premium</h2>
+<i class="fas fa-bus-alt" style="font-size: 28px;" color="yello" position="center"></i>
+<table width="100%">
+<!--Client Details-->
+<tr>
+    <td>Client Name</td>
+<td>
+
+    <input type="text"  id="name" size="35" placeholder="Enter the Name of Vehicle Owner">
+</td>
+<td>Client Mobile Number</td>
+
+<td>
+<input type="text" id="Number" size="35" placeholder="Please Enter 10 Digit Mobile Number">
+</td>
+</tr>
+
+<tr>
+<td>E-Mail ID</td>
+<td>
+<input type="email" size="35" placeholder="Please Enter EMail ID of Client">
+
+</td>
+<td>Client DOB</td>
+<td>
+<input type="date" id="Date" size="35" placeholder="Please select Date of birth"> 
+
+</td>
+</tr>
+</table>
+<br>
+
+<!--Vehicle Informatiom-->
+
+
+<div id="Vehicle Informatiom">
+
+    <h2>Vehicle Informatiom </h2>
+
+    <i class="fas fa-bus-alt" style="font-size: 28px;" color="yello" position="center"></i>
+    <table width="100%">
+        <tr>
+<td>Registration Number</td>
+
+<td>
+<input type="text" id="Number" size="35" placeholder="DL-13-CA-1234">
+
+</td>
+
+<td>Registration Date</td>
+
+<td>
+<input type="date" id="Number" size="35" size="25">
+
+</td>
+
+<td>Manufacturing Date</td>
+
+<td>
+<input type="month" size="15" placeholder="None">
+
+
+</td>
+
+</tr>
+<tr>
+<td>Engine Number</td>
+
+<td>
+<input type="text" id="Number" size="35" placeholder="Vehicle Engine Number">
+
+
+</td>
+<tr>
+<td>Chasis Number</td>
+
+<td>
+<input type="text" id="Number" size="35" placeholder="Vehicle Chasis Number">
+
+
+</td>
+<td>Vehicle Make</td>
+
+<td>
+<input type="text" id="35" size="35" placeholder="Like, TATA, MARUTI, MAHINDRA etc">
+
+
+</td>
+
+        </tr>
+        <tr>
+
+            <td>Vehicle Model</td>
+
+<td>
+<input type="text" id="text" size="35" placeholder="Like, Tiego, Swift, XUV500 etc">
+
+
+</td>
+
+            <td>Engine Capacity</td>
+            <td>
+            <input type="text" id="Number" size="35" placeholder="Like;1271 CC">
+            
+            </td>
+
+
+
+        </tr>
+
+</div>
+
+</table>
+<br>
+<div id="Previous Policy Information">
+
+    <h2>Previous Policy Information</h2>
+
+    <i class="fas fa-bus-alt" style="font-size: 28px;" color="yello" position="center"></i>
+
+    <table width="100%">
+<tr>
+<td>IDV</td>
+<td>
+
+    <input type="text" id="Number" size="28" placeholder="Current Vehicle Value">
+</td>
+<td>Previous Policy Start date</td>
+<td>
+<input type="date">
+
+</td>
+</td>
+<td>Previous Policy End date</td>
+<td>
+<input type="date">
+
+</td>
+</tr>
+<tr>
+<td>Previous Insurance</td>
+<td>
+  
+
+<select id="Insurance" name="Previous Insurance" id="text">
+    <option value="Please select">Please Select Here</option>
+    <option value="Policy Expired with in 90 Days">Policy Expired with in 90 Days</option>
+    <option value="Policy Expired more than 90 Days">Policy Expired more than 90 Days</option>
+    <option value="Policy Not Expired">Policy Not Expired</option>
+    <option value="I do not have Previous Policy">I do not have Previous Policy</option>
+  </select>
+
+
+</td>
+
+<td>No Claim Bonus Previous</td>
+<td>
+  
+
+<select id="Claim" name="Claim">
+    <option value="Please select">Please Select NCB</option>
+    <option value="0%">0%</option>
+    <option value="20%">20%</option>
+    <option value="25%">25%</option>
+    <option value="35%">35%</option>
+    <option value="45%">45%</option>
+    <option value="50%">50%</option>
+    </select>
+
+
+</td>
+<td>No Claim Bonus Current</td>
+<td>
+  
+
+<select id="Claim" name="Claim">
+    <option value="Please select">Please Select</option>
+    <option value="0%">0%</option>
+    <option value="20%">20%</option>
+    <option value="25%">25%</option>
+    <option value="35%">35%</option>
+    <option value="45%">45%</option>
+    <option value="50%">50%</option>
+    </select>
+
+
+</td>
+<tr>
+<td>Claim in Last Policy</td>
+<td>
+  
+
+<select id="Claim" name="Claim">
+    <option value="Please select">Select Claim Status in Last Policy</option>
+    <option value="Taken">Claim Taken</option>
+    <option value="Not Taken">Claim Not Taken</option>
+  
+    </select>
+
+
+</td>
+<td>Previous Policy Number</td>
+<td>
+
+    <input type="text" size="35" placeholder="Previous Policy Number">
+</td>
+</tr>
+<tr>
+    <td>Please Select Previous Insurer</td>
+    <td>
+      
+    
+    <select id="Insurance Company" name="Insurance Company">
+        <option value="Please select Previous Insurer">Please Select Previous Insurer</option>
+        <option value="Bajaj Allianz General Insurance Co. Ltd">Bajaj Allianz General Insurance Co. Ltd</option>
+        <option value="Bharti AXA General Insurance Co. Ltd.">Bharti AXA General Insurance Co. Ltd.</option>
+        <option value="Cholamandalam MS General Insurance Co. Ltd">Cholamandalam MS General Insurance Co. Ltd.</option>
+        <option value="Acko General Insurance Ltd.">Edelweiss General Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">Future Generali India Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">Go Digit General Insurance Ltd
+        </option>
+        <option value="Acko General Insurance Ltd.">HDFC ERGO General Insurance Co.Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">ICICI LOMBARD General Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">IFFCO TOKIO General Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">Liberty General Insurance Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">Magma HDI General Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">National Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">Raheja QBE General Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">Reliance General Insurance Co.Ltd
+        </option>
+        <option value="Acko General Insurance Ltd.">Royal Sundaram General Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">SBI General Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">Shriram General Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">The New India Assurance Co. Ltd
+        </option>
+        <option value="Acko General Insurance Ltd.">The Oriental Insurance Co. Ltd.
+       </option>
+        <option value="Acko General Insurance Ltd.">United India Insurance Co. Ltd.
+        </option>
+        <option value="Acko General Insurance Ltd.">Universal Sompo General Insurance Co. Ltd.
+        </option>
+        
+      
+        </select>
+    
+    
+    </td>
+    </tr>
+
+
+
+</tr>
+
+</div>
+
+    </div>
+
+
+
+</form>
+
+    </html>
